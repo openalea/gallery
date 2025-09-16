@@ -6,7 +6,7 @@ authors:
 - family-names: "Smith"
   given-names: "John"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "gallery : OpenAlea Gallery"
+title: "gallery : Gallery for OpenAlea project"
 version: x.y.z
 date-released: 2099-12-31
 url: "https://github.com/openalea/gallery"
@@ -20,7 +20,7 @@ preferred-citation:
       given-names: "John"
       orcid: "https://orcid.org/0000-0000-0000-0000"
 
-    title: "gallery : OpenAlea Gallery"
+    title: "gallery : Gallery for OpenAlea project"
     doi: ""
     journal: ""
     publisher: ""

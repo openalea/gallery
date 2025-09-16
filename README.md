@@ -13,11 +13,18 @@ _________________
 
 _________________
 
-**gallery** OpenAlea Gallery
+**gallery** Gallery for OpenAlea project
+
+`pixi run build-gallery` to install the gallery.
+
+or
+
+`mamba env create -f .binder/environment.yml`
+
 
 ### Contributors
 
-Thanks to all that ontribute making this package what it is !
+Thanks to all that contribute making this package what it is !
 
 <a href="https://github.com/openalea/gallery/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openalea/gallery" />

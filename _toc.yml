@@ -1,0 +1,36 @@
+# In _toc.yml
+format: jb-book
+root: intro.md
+parts:
+  - caption: Overview
+    chapters:
+      - file: overview/get_started.md
+      - file: overview/notebooks
+      - file: overview/markdown-notebooks
+        sections:
+          - file: overview/notebooks/first
+          - file: overview/notebooks/second
+
+  - caption: Package tutorials
+    chapters:
+      - file: package/hydroroot/hydroroot.md
+        sections:
+          - file: package/hydroroot/hydroroot_notebook.ipynb
+          - file: package/hydroroot/hydroroot_notebook2.ipynb
+      - file: package/phenomenal/phenomenal.md
+        sections:
+          - file: package/phenomenal/phenomenal_notebook.ipynb
+          - file: package/phenomenal/phenomenal_notebook2.ipynb
+
+
+  - caption: Integrated notebooks
+    chapters:
+      - file: integrated/integrated
+      - file: integrated/integrated2
+
+  - caption: References
+    chapters:
+      - file: AUTHORS.md
+      - file: CHANGELOG.md
+      - file: CONTRIBUTING.md
+      - file: LICENSE

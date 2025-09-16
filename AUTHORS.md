@@ -2,9 +2,9 @@
 
 ## Lead Developer
 
-- Jane Doe, jane doe __at__ cirad fr
+- OpenAlea Team
 
 ## Contributors
 
-- John Smith, john smith __at__ example com (Initial code, Documentation)
-- Alice Johnson, alice johnson __at__ example com (Documentation, Testing)
+- Thomas Arsouze, thomas arsouze __at__ cirad.fr (Initial code, Documentation)
+- Christophe Pradal, christophe pradal __at__ cirad.fr (Documentation, Review)

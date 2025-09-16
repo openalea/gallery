@@ -1,29 +1,9 @@
-[build-system]
-requires = [
-    "setuptools",
-    "setuptools_scm",
-]
-build-backend = "setuptools.build_meta"
-
-# where your source lies if you followed src layout
-[tool.setuptools.packages.find]
-where = ["src"]
-
-[tool.setuptools]
-include-package-data = false # force explicit declaration of data (disable automatic inclusion)
-
-[tool.setuptools.package-data]
-"openalea.pkg_name" = ["data/**/*"]
-
-# enable dynamic version based on git tags
-[tool.setuptools_scm]
-
 [project]
 name = "openalea.gallery"
 authors = [
   { name = "openalea" },
 ]
-description = "FSPM tools for OpenAlea"
+description = "Gallery notebooks for OpenAlea"
 readme = "README.md"
 license = "CECILL-C"
 license-files = ["LICEN[CS]E*"]
@@ -44,41 +24,6 @@ classifiers = [
   "Topic :: Scientific/Engineering",
 ]
 
-# you can list here all dependencies that are pip-instalable, and that have a name identical to the one used by conda (to allow reuse of this list in meta.yaml)
-# If conda name is different, please do not declare the pip name, and declare conda name in the next section
-dependencies = [
-]
-
-[project.optional-dependencies]
-test = [
-  "pytest",
-  "nbmake",
-]
-dev = [
-  "pytest >=6",
-  "pytest-cov >=3",
-]
-doc = [
-  "sphinx-autobuild",
-  "pydata-sphinx-theme",
-  "myst-parser",
-  "sphinx-favicon",
-  "ipykernel",
-  "sphinx-copybutton",
-  "ipython_genutils",
-  "nbsphinx",
-]
-
-# section specific to conda-only distributed package (not used by pip yet)
-[tool.conda.environment]
-channels = [
-  "openalea3",
-  "conda-forge"
-]
-dependencies = [
-    "openalea.plantgl",
-]
-
 [project.urls]
 Repository = "https://github.com/openalea/gallery"
 Homepage = "https://gallery.readthedocs.io/"
@@ -86,5 +31,25 @@ Homepage = "https://gallery.readthedocs.io/"
 Discussions = "https://github.com/openalea/gallery/discussions"
 Changelog = "https://github.com/openalea/gallery/releases"
 
-[project.entry-points."wralea"]
-"my_pkg" = "openalea.gallery_wralea"
+[tool.pixi.project]
+name = "openalea-gallery"
+channels = ["openalea3/label/dev", "conda-forge"]
+platforms = ["osx-64", "linux-64", "win-64"]
+
+[tool.pixi.dependencies]
+python = ">=3.13"
+"openalea.plantgl" = ">=3.21.2.dev,<4"
+"openalea.lpy" = ">=3.14.2.dev,<4"
+"openalea.caribu" = ">=8.1.4.dev,<9"
+"openalea.hydroroot" = ">=2.0.1.dev,<3"
+"openalea.phenomenal" = ">=1.10.3.dev,<2"
+"openalea.oalab" = ">=2.4.2.dev,<3"
+oawidgets = ">=1.0.6.dev,<2"
+"openalea.mtg" = ">=2.2.1.dev,<3"
+jupyterlab = ">=4.4.7,<5"
+jupyter-book = ">=1.0.4.post1,<2"
+
+[tool.pixi.tasks]
+build_gallery = "jupyter-book build ."
+run = "jupyter lab --LabApp.default_url='/lab/tree/overview/notebooks.ipynb"
+
