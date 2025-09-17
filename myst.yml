@@ -6,31 +6,32 @@ project:
   copyright: 2025, OpenAlea Team
   github: openalea/gallery
   bibliography:
-    - reference/references.bib
+    - doc/reference/references.bib
   toc:
-    - file: intro.md
+    - file: doc/intro.md
+    - file: doc/getting_started.md
     - title: Overview
       children:
-        - file: overview/get_started.md
-        - file: overview/notebooks.ipynb
-        - file: overview/markdown-notebooks.md
+        - file: doc/overview/get_started.md
+        - file: doc/overview/notebooks.ipynb
+        - file: doc/overview/markdown-notebooks.md
           children:
-            - file: overview/notebooks/first.ipynb
-            - file: overview/notebooks/second.ipynb
+            - file: doc/overview/notebooks/first.ipynb
+            - file: doc/overview/notebooks/second.ipynb
     - title: Package tutorials
       children:
-        - file: package/hydroroot/hydroroot.md
+        - file: doc/package/hydroroot/hydroroot.md
           children:
-            - file: package/hydroroot/hydroroot_notebook.ipynb
-            - file: package/hydroroot/hydroroot_notebook2.ipynb
-        - file: package/phenomenal/phenomenal.md
+            - file: doc/package/hydroroot/hydroroot_notebook.ipynb
+            - file: doc/package/hydroroot/hydroroot_notebook2.ipynb
+        - file: doc/package/phenomenal/phenomenal.md
           children:
-            - file: package/phenomenal/phenomenal_notebook.ipynb
-            - file: package/phenomenal/phenomenal_notebook2.ipynb
+            - file: doc/package/phenomenal/phenomenal_notebook.ipynb
+            - file: doc/package/phenomenal/phenomenal_notebook2.ipynb
     - title: Integrated notebooks
       children:
-        - file: integrated/integrated.md
-        - file: integrated/integrated2.md
+        - file: doc/integrated/integrated.md
+        - file: doc/integrated/integrated2.md
     - title: References
       children:
         - file: AUTHORS.md

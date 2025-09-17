@@ -1,5 +1,0 @@
-"""**gallery**
-
-OpenAlea Gallery
-"""
-
