@@ -1,16 +1,17 @@
 name: gallery
 channels:
+  - openalea3/label/rc
   - openalea3/label/dev
   - conda-forge
 dependencies:
   - python >=3.13
-  - openalea.plantgl >=3.21.2.dev,<4
-  - openalea.lpy >=3.14.2.dev,<4
-  - openalea.caribu >=8.1.4.dev,<9
-  - openalea.hydroroot >=2.0.1.dev,<3
-  - openalea.phenomenal >=1.10.3.dev,<2
-  - openalea.oalab >=2.4.2.dev,<3
-  - oawidgets >=1.0.6.dev,<2
-  - openalea.mtg >=2.2.1.dev,<3
-  - jupyterlab >=4.4.7,<5
-  - jupyter-book >=1.0.4.post1,<2
+  - openalea.plantgl
+  - openalea.lpy
+  - openalea.caribu
+  - openalea.hydroroot
+  - openalea.phenomenal
+  - openalea.oalab
+  - oawidgets
+  - openalea.mtg
+  - jupyterlab
+  - jupyter-book

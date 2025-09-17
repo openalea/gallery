@@ -33,7 +33,7 @@ Changelog = "https://github.com/openalea/gallery/releases"
 
 [tool.pixi.project]
 name = "openalea-gallery"
-channels = ["openalea3/label/dev", "conda-forge"]
+channels = ["openalea3/label/rc", "openalea3/label/dev", "conda-forge"]
 platforms = ["osx-64", "linux-64", "win-64"]
 
 [tool.pixi.dependencies]
