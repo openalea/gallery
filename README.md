@@ -1,7 +1,5 @@
 # gallery
 
-_________________
-
 [![Docs](https://readthedocs.org/projects/gallery/badge/?version=latest)](https://gallery.readthedocs.io/)
 [![Build Status](https://github.com/openalea/gallery/actions/workflows/conda-package-build.yml/badge.svg?branch=main)](https://github.com/openalea/gallery/actions/workflows/conda-package-build.yml?query=branch%3Amaster)
 [![License](https://img.shields.io/badge/License--CeCILL-C-blue)](https://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html)
@@ -13,7 +11,7 @@ _________________
 
 _________________
 
-**gallery** Gallery for OpenAlea project
+## Gallery for OpenAlea project
 
 `pixi run build-gallery` to install the gallery.
 
