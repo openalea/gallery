@@ -1,9 +1,20 @@
-name: gallery_dev
+name: gallery_rc
 channels:
+  - openalea3/label/dev
   - conda-forge
-  - openalea3
 dependencies:
-  - python
+  - openalea.mtg
+  - openalea.lpy
+  - oawidgets
+  - openalea.wheatfspm
+  - openalea.visualea
+  - rsml
+  - openalea.hydroroot
+  #- openalea.hydroshoot
+  - openalea.adel
+  - openalea.ratp
+  - openalea.astk
+  - openalea.metafspm
+  - jupyterlab
+  - jupyter-book
   - pip
-  - pip:
-      - -e '..[test,dev,doc]'
