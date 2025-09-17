@@ -1,0 +1,44 @@
+version: 1
+project:
+  title: OpenAlea gallery
+  authors:
+    - name: The Jupyter Book Community
+  copyright: 2025, OpenAlea Team
+  github: openalea/gallery
+  bibliography:
+    - reference/references.bib
+  toc:
+    - file: intro.md
+    - title: Overview
+      children:
+        - file: overview/get_started.md
+        - file: overview/notebooks.ipynb
+        - file: overview/markdown-notebooks.md
+          children:
+            - file: overview/notebooks/first.ipynb
+            - file: overview/notebooks/second.ipynb
+    - title: Package tutorials
+      children:
+        - file: package/hydroroot/hydroroot.md
+          children:
+            - file: package/hydroroot/hydroroot_notebook.ipynb
+            - file: package/hydroroot/hydroroot_notebook2.ipynb
+        - file: package/phenomenal/phenomenal.md
+          children:
+            - file: package/phenomenal/phenomenal_notebook.ipynb
+            - file: package/phenomenal/phenomenal_notebook2.ipynb
+    - title: Integrated notebooks
+      children:
+        - file: integrated/integrated.md
+        - file: integrated/integrated2.md
+    - title: References
+      children:
+        - file: AUTHORS.md
+        - file: CHANGELOG.md
+        - file: CONTRIBUTING.md
+        - file: LICENSE
+site:
+  options:
+    logo: _static/openalea_web.svg
+    folders: true
+  template: book-theme

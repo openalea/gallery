@@ -47,7 +47,6 @@ python = ">=3.13"
 oawidgets = ">=1.0.6.dev,<2"
 "openalea.mtg" = ">=2.2.1.dev,<3"
 jupyterlab = ">=4.4.7,<5"
-jupyter-book = ">=1.0.4.post1,<2"
 
 [tool.pixi.tasks]
 build_gallery = "jupyter-book build ."
