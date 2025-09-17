@@ -4,7 +4,7 @@
 
 OpenAlea is built by a community of researchers and labs around the world ,lead by three french research institutes : CIRAD, INRAE, and inria.
 
-Openalea provides :
+## What's in OpenAlea ?
 * **formalisms** used to represent plant architecture (MTG), visualise it in 3D (plantgl), simulate the growth and development of plants (LPy), and analyse its structure (StructureAnalysis)
 * **models** in ecophysiology and biophysics
 * **use cases** to adapt formalisms and models for a given community and application. Some applications are 
