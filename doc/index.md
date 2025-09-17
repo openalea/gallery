@@ -1,4 +1,4 @@
-# gallery
+# OpenAlea Gallery
 
 ## Official documentation for openalea.gallery
 
