@@ -1,3 +1,3 @@
 import pytest
 
-from gallery import gallery
+from openalea import gallery
