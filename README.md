@@ -19,7 +19,11 @@ _________________
 
 or
 
-`mamba env create -f .binder/environment.yml`
+```bash
+mamba env create -f .binder/environment.yml
+mamba activate gallery
+jupyter-book build .
+```
 
 
 ### Contributors
