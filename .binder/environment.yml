@@ -14,6 +14,7 @@ dependencies:
   - oawidgets
   - openalea.mtg
   - jupyterlab
+  - nodejs
   - pip
   - pip:
       - jupyter-book==2.*
