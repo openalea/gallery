@@ -2,7 +2,8 @@
 
 **[`OpenAlea`](https://openalea.readthedocs.io/en/latest/index.html) is an open source project primarily aimed at the plant research community.
 
-On this Jupyter Book website you'll find notebooks showing how to run various packages of the OpenAlea ecosystem. This will help you exploring OpenAlea capacities and get a head start on your own projects!
+On this Jupyter Book website you will find notebooks showing how to run various packages of the OpenAlea ecosystem. 
+This will help you exploring OpenAlea capacities and get a head start on your own projects!
 
 ````{grid}
 :class-container: text-center
