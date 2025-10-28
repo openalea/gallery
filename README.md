@@ -20,7 +20,7 @@ or
 ```bash
 mamba env create -f .binder/environment.yml
 mamba activate gallery
-jupyter-book build .
+jupyter book start
 ```
 
 

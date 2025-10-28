@@ -1,4 +1,4 @@
-name: gallery
+name: gallery_dev
 channels:
   - openalea3/label/rc
   - openalea3/label/dev
@@ -17,4 +17,5 @@ dependencies:
   - nodejs
   - pip
   - pip:
-      - jupyter-book==2.* --pre
+      - jupyter-book==2.*
+      - --pre

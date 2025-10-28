@@ -19,7 +19,7 @@ Be patient, it can take a few minutes for a server to become available on the Cl
 
 #### Mybinder.org
 
-Clicking [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openalea/gallery/HEAD) will load a pre-configured Jupyter Lab interface with _all_ tutorial notebooks for you to run. _You have minimal computing resources and any changes you make will not be saved._ Any page with executable content also has a 🚀 icon in the upper right that will launch an interactive session for that particular page.
+Clicking [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openalea/gallery/release2025) will load a pre-configured Jupyter Lab interface with _all_ tutorial notebooks for you to run. _You have minimal computing resources and any changes you make will not be saved._ Any page with executable content also has a 🚀 icon in the upper right that will launch an interactive session for that particular page.
 
 #### GitHub Codespaces
 
