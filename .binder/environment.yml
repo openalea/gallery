@@ -11,7 +11,7 @@ dependencies:
   - openalea.hydroroot
   - openalea.phenomenal
   - openalea.oalab
-  - oawidgets
+  - openalea.widgets
   - openalea.mtg
   - jupyterlab
   - nodejs

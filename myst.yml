@@ -37,7 +37,7 @@ project:
         - file: AUTHORS.md
         - file: CHANGELOG.md
         - file: CONTRIBUTING.md
-        - file: LICENSE
+        - file: LICENSE.md
 site:
   options:
     logo: doc/_static/openalea_web.svg

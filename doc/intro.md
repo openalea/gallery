@@ -10,7 +10,7 @@ This will help you exploring OpenAlea capacities and get a head start on your ow
 :gutter: 3
 
 ```{grid-item-card}
-:link: overview/get-started
+:link: doc/overview/get-started
 :link-type: doc
 Run the tutorials! 🚀
 ^^^
@@ -18,14 +18,14 @@ How to run the notebooks
 ```
 
 ```{grid-item-card}
-:link: overview/notebooks
+:link: doc/overview/notebooks
 Notebooks!!
 ^^^
 Another awesome thing
 ```
 
 ```{grid-item-card}
-:link: overview/markdown-notebooks
+:link: doc/overview/markdown-notebooks
 Markdown notebooks !!!
 ^^^
 Last awesome thing
