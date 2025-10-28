@@ -17,4 +17,4 @@ dependencies:
   - nodejs
   - pip
   - pip:
-      - jupyter-book==2.*
+      - jupyter-book==2.* --pre

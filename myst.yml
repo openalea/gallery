@@ -2,7 +2,7 @@ version: 1
 project:
   title: OpenAlea gallery
   authors:
-    - name: The Jupyter Book Community
+    - name: The OpenAlea Community
   copyright: 2025, OpenAlea Team
   github: openalea/gallery
   bibliography:
@@ -22,7 +22,7 @@ project:
       children:
         - file: doc/package/hydroroot/hydroroot.md
           children:
-            - file: doc/package/hydroroot/hydroroot_notebook.ipynb
+            - file: doc/package/hydroroot/example_archi_from_file.ipynb
             - file: doc/package/hydroroot/hydroroot_notebook2.ipynb
         - file: doc/package/phenomenal/phenomenal.md
           children:
@@ -40,6 +40,6 @@ project:
         - file: LICENSE
 site:
   options:
-    logo: _static/openalea_web.svg
+    logo: doc/_static/openalea_web.svg
     folders: true
   template: book-theme
