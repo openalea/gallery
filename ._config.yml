@@ -1,0 +1,28 @@
+# In _config.yml
+title: OpenAlea gallery
+subtitle: A collection of examples and tutorials for OpenAlea
+author: The Jupyter Book Community
+copyright: "2025, OpenAlea Team"
+logo: _static/openalea_web.svg
+execute:
+  execute_notebooks: force
+
+# Add a bibtex file so that we can create citations
+sphinx:
+  extra_extensions:
+  - sphinxcontrib.bibtex
+
+bibtex_bibfiles:
+  - doc/reference/references.bib
+
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  home_page_in_navbar: false
+  use_edit_page_button: true
+  use_issues_button: true
+  use_repository_button: true
+
+# Information about where the book exists on the web
+repository:
+  url: "https://github.com/openalea/gallery"
+  branch: main

@@ -1,0 +1,27 @@
+name: gallery_dev
+channels:
+  - openalea3/label/rc
+  - openalea3
+  - conda-forge
+dependencies:
+# some of the pkgs install dependencies like lpy and visualea
+  - python >=3.13
+  - openalea.plantgl
+  - openalea.lpy
+  - openalea.mtg
+  - openalea.widgets
+  - openalea.astk
+  - openalea.caribu
+  - openalea.visualea
+  - openalea.weberpenn
+#  - openalea.ratp
+#  - openalea.adel
+#  - openalea.wheatfspm
+#  - openalea.hydroroot
+#  - openalea.phenomenal
+  - jupyterlab
+  - nodejs
+  - pip
+  - pip:
+      - jupyter-book==2.*
+      - --pre

@@ -4,7 +4,7 @@
 
 Tutorials are approximately divided first into thematical scientific sections, focusing onto use of individual packages, then into a more integrated view mixing different topics and openalea packages.
 
-Most of the tutorial content is written as Jupyter Notebooks that mix code, text, visualization, and exercises. You can either browse rendered versions of these notebooks on this website, or _execute_ the code examples interactively.
+Most of the tutorial content is written as Jupyter Notebooks that mixes code, text, visualization, and exercises. You can either browse rendered versions of these notebooks on this website, or _execute_ the code examples interactively.
 
 You can execute code examples either on the Cloud  or on your computer with minimal setup.
 ## Run code interactively
@@ -19,7 +19,7 @@ Be patient, it can take a few minutes for a server to become available on the Cl
 
 #### Mybinder.org
 
-Clicking [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/xarray-contrib/xarray-tutorial/HEAD) will load a pre-configured Jupyter Lab interface with _all_ tutorial notebooks for you to run. _You have minimal computing resources and any changes you make will not be saved._ Any page with executable content also has a {octicon}`rocket;2em` icon in the upper right that will launch an interactive session for that particular page.
+Clicking [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openalea/gallery/release2025) will load a pre-configured Jupyter Lab interface with _all_ tutorial notebooks for you to run. _You have minimal computing resources and any changes you make will not be saved._ Any page with executable content also has a 🚀 icon in the upper right that will launch an interactive session for that particular page.
 
 #### GitHub Codespaces
 

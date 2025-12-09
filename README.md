@@ -4,6 +4,7 @@
 [![Build Status](https://github.com/openalea/gallery/actions/workflows/conda-package-build.yml/badge.svg?branch=main)](https://github.com/openalea/gallery/actions/workflows/conda-package-build.yml?query=branch%3Amaster)
 [![License](https://img.shields.io/badge/License--CeCILL-C-blue)](https://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html)
 [![Anaconda-Server Badge](https://anaconda.org/openalea3/gallery/badges/version.svg)](https://anaconda.org/openalea3/gallery)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openalea/gallery/HEAD)
 
 _________________
 
@@ -20,7 +21,7 @@ or
 ```bash
 mamba env create -f .binder/environment.yml
 mamba activate gallery
-jupyter-book build .
+jupyter book start
 ```
 
 
