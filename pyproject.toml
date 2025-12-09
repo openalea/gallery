@@ -31,6 +31,33 @@ Homepage = "https://gallery.readthedocs.io/"
 Discussions = "https://github.com/openalea/gallery/discussions"
 Changelog = "https://github.com/openalea/gallery/releases"
 
+
+# section specific to conda-only distributed package (not used by pip yet)
+[tool.conda.environment]
+channels = [
+  "openalea3",
+  "conda-forge"
+]
+dependencies = [
+  "python >=3.13",
+  "openalea.plantgl",
+  "openalea.lpy",
+  "openalea.mtg",
+  "openalea.widgets",
+  "openalea.astk",
+  "openalea.caribu",
+  "openalea.visualea",
+  "openalea.weberpenn",
+#  "openalea.ratp",
+#  "openalea.adel",
+#  "openalea.wheatfspm",
+#  "openalea.hydroroot",
+#  "openalea.phenomenal",
+  "jupyterlab",
+  "nodejs",
+]
+
+# pixi tool
 [tool.pixi.project]
 name = "openalea-gallery"
 channels = ["openalea3/label/rc", "openalea3/label/dev", "conda-forge"]
@@ -51,4 +78,3 @@ jupyterlab = ">=4.4.7,<5"
 [tool.pixi.tasks]
 build_gallery = "jupyter-book build ."
 run = "jupyter lab --LabApp.default_url='/lab/tree/overview/notebooks.ipynb"
-

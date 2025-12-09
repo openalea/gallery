@@ -8,8 +8,12 @@ execute:
   execute_notebooks: force
 
 # Add a bibtex file so that we can create citations
+sphinx:
+  extra_extensions:
+  - sphinxcontrib.bibtex
+
 bibtex_bibfiles:
-  - reference/references.bib
+  - doc/reference/references.bib
 
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
