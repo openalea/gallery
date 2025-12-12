@@ -1,56 +1,136 @@
-pre: git clone https://github.com/pradal/ligo-binder.git ligo
+pre: git clone https://github.com/openalea/gallery gallery
 
 packages:
-    - name      : scipy
+    - name      : openalea.weberpenn
       vcs       : conda
-      cmd       : conda install -y
+      cmd       : mamba install -y
       hierarchy : patch
       supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
 
-    - name      : numpy
+    - name      : openalea.visualea
       vcs       : conda
-      cmd       : conda install -y
+      cmd       : mamba install -y
       hierarchy : patch
       supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
 
-    - name      : h5py
+    - name      : openalea.grapheditor
       vcs       : conda
-      cmd       : conda install -y
+      cmd       : mamba install -y
       hierarchy : patch
       supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
 
-    - name      : seaborn
+    - name      : openalea.core
       vcs       : conda
-      cmd       : conda install -y --no-deps
+      cmd       : mamba install -y
       hierarchy : patch
       supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
 
-    - name      : notebook
+    - name      : openalea.oalab
       vcs       : conda
-      cmd       : conda install -y
+      cmd       : mamba install -y
       hierarchy : patch
       supply    : minor
-
-    - name      : nbconvert
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
+    - name      : openalea.caribu
       vcs       : conda
-      cmd       : conda install -y
+      cmd       : mamba install -y
       hierarchy : patch
       supply    : minor
-
-    - name      : matplotlib
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
+    - name      : openalea.libcaribu
       vcs       : conda
-      cmd       : conda install -y
+      cmd       : mamba install -y
+      hierarchy : patch
+      supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
+    - name      : openalea.mtg
+      vcs       : conda
+      cmd       : mamba install -y
+      hierarchy : patch
+      supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
+    - name      : openalea.lpy
+      vcs       : conda
+      cmd       : mamba install -y
+      hierarchy : patch
+      supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
+
+    - name      : openalea.plantgl
+      vcs       : conda
+      cmd       : mamba install -y
+      hierarchy : patch
+      supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
+
+    - name      : openalea.astk
+      vcs       : conda
+      cmd       : mamba install -y
+      hierarchy : patch
+      supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
+
+    - name      : openalea.widgets
+      vcs       : conda
+      cmd       : mamba install -y
+      hierarchy : patch
+      supply    : minor
+      channels:
+        - openalea3/label/rc
+        - openalea3
+        - conda-forge
+
+    - name      : matplotlib-base
+      vcs       : conda
+      cmd       : mamba install -y
       hierarchy : patch
       supply    : minor
 
     - name      : python
       vcs       : conda
-      cmd       : conda install -y
+      cmd       : mamba install -y
       hierarchy : patch
       supply    : major
 
 
 run:
-    - jupyter-nbconvert --ExecutePreprocessor.timeout=60 --to notebook --execute ligo/index.ipynb
+    - python -c 'import openalea.plantgl'
 
-post: conda env export > environment.yml
+post: mamba env export > environment.yml
